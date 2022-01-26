@@ -115,8 +115,8 @@ public class Main {
         );
 
         ScreenManager scrmg = new ScreenManager()
-            .addPage("test1", test1)
-            .open("test2");
+            .addScreen("test1", test1)
+            .open("test1");
 
         Cursor.toPos(10, 2000).p();
     }
