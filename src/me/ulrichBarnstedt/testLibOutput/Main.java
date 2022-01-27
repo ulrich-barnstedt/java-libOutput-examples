@@ -54,7 +54,7 @@ public class Main {
                         .addElement(
                             new Container(true, true)
                                 .addElement(new Text("(And separate padding!)"))
-                                .setPadding(3, 3)
+                                .setPadding(1, 4, 4, 1)
                         )
                 )
                 .addElement(
